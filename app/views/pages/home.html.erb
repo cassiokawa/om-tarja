@@ -1,9 +1,9 @@
 <div data-cloud9-id='12' id="content" class="container">
     <header data-cloud9-id='13' id="content-header">
         <div data-cloud9-id='14' id="price-container">
-          <span data-cloud9-id='15' class="glyphicon glyphicon-tag"></span><span data-cloud9-id='16' class="price">$4.99</span>
+          <span class="glyphicon glyphicon-tag"></span><span data-cloud9-id='16' class="price">$4.99</span>
         </div>
-        <img data-cloud9-id='17' id="content-header-img" src="img/header-image.jpg" alt="Learn Growth Hacking">
+        <%= image_tag('header-image.jpg', id: "content-head-img", alt: "Learn Growth Hacking") %>
     </header>
     <section data-cloud9-id='18' id="content-details" class="row clearfix">
         <article data-cloud9-id='19' id="details-article" class="col-sm-8">
@@ -22,7 +22,7 @@
             </ul>
         </article>
         <aside data-cloud9-id='34' id="details-aside" class="col-sm-4">
-            <a data-cloud9-id='35' id="btn-buy" href="receipt.html" class="btn btn-success btn-lg btn-block"><span data-cloud9-id='36' class="glyphicon glyphicon-ok"></span>I want this!</a>
+            <a data-cloud9-id='35' id="btn-buy" href="receipt.html" class="btn btn-success btn-lg btn-block"><span class="glyphicon glyphicon-ok"></span>I want this!</a>
             <ul data-cloud9-id='37' id="details-infobox" class="list-group">
               <li data-cloud9-id='38' class="list-group-item active clearfix">DETAILS</li>
               <li data-cloud9-id='39' class="list-group-item">You'll get one video</li>
@@ -35,7 +35,7 @@
     </section>
 </div>
 <footer data-cloud9-id='43' id="site-footer">
-Made by <a data-cloud9-id='44' href="http://onemonth.com" target="_blank"><img data-cloud9-id='45' id="one-month-footer-logo" src="img/one-month-logo.svg" alt="One Month"></a>
+Made by <a href="http://onemonth.com" target="_blank"><%= image_tag('one-month-logo.svg', id: "content-head-img", alt: "Learn Growth Hacking") %></a>
 </footer>
 
 <!-- Modal -->
@@ -54,7 +54,7 @@ Made by <a data-cloud9-id='44' href="http://onemonth.com" target="_blank"><img d
                 <p data-cloud9-id='59'>Follow me on Twitter <a data-cloud9-id='60' href="https://twitter.com/mattangriffel" target="_blank">@mattangriffel</a></p>
             </div>
             <div data-cloud9-id='61' id="modal-right" class="pull-right">
-                <img data-cloud9-id='62' src="img/teacher-image.jpg" alt="Mattan Griffel">
+                
             </div>
       </div>
       <div data-cloud9-id='63' class="modal-footer">
