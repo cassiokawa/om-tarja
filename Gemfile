@@ -13,7 +13,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem "figaro"
-gem 'letter_opener', group: :development
+gem "letter_opener", :group => :development
+gem "launchy"
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
