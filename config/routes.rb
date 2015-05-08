@@ -10,12 +10,16 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   
   #Support stripe payments through charges
-    resources :charges
+  resources :charges
+  
+  # Route for showing products
+  resources :products, only: [:index]
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
-    resources :purchases, only: [:show]
+  resources :purchases, only: [:show]
 
+    
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
